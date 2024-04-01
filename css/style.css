@@ -1,0 +1,64 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+  --azul-dnc: #0C70F2;
+  --preto-dnc: #303030;
+  --cinza-hover: #C9C9C9;
+  --fonte-padrao: 'Inter';
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+#principal{
+  width: 100%;
+  height: 100px;
+  background-color: #303030;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #BABABA;
+}
+
+#menu{
+  display:flex;
+  width: 45%;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-left: 5%;
+}
+
+#principal div a{
+  font-family: var(--fonte-padrao);
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+
+  text-decoration: none;
+}
+
+#principal div a:hover{
+  color:var(--cinza-hover);
+}
+
+#principal button{
+  margin-right:5%;
+  background-color: var(--azul-dnc);
+  border:0px;
+
+  height:40px;
+  width:80px;
+
+  font-family: var(--fonte-padrao);
+  font-size:20px;
+  font-weight: 600;
+  color:white;
+
+  box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+  cursor:pointer;
+}
